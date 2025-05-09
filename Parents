@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidado Cercano</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #1e1e1e; color: white; }
+        header, section, footer { padding: 2em; max-width: 800px; margin: auto; }
+        h1, h2 { color: #ffffff; }
+        h1 { font-size: 2.5em; margin-bottom: 0.2em; }
+        p, li { font-size: 1.2em; line-height: 1.6; }
+        .cta-button {
+            display: inline-block;
+            background-color: #00aaff;
+            color: white;
+            padding: 0.75em 1.5em;
+            margin-top: 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        ul { list-style-type: disc; padding-left: 1.5em; }
+        blockquote {
+            border-left: 4px solid #00aaff;
+            padding-left: 1em;
+            margin: 1em 0;
+            font-style: italic;
+        }
+        footer { font-size: 0.9em; color: #cccccc; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ellos te dieron todo. Ahora tú puedes cuidarlos, sin importar la distancia.</h1>
+    <p>Creamos una red de apoyo en Colombia para cuidar de tus padres como tú lo harías.</p>
+    <a href="https://forms.gle/tu_formulario_aqui" class="cta-button">Pre-regístrate aquí</a>
+</header>
+
+<section>
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos hijos, nietos, sobrinos. Sabemos lo que se siente estar lejos y no poder ayudar. Por eso estamos creando este servicio: para acompañar a tus padres en Colombia con respeto, cariño y profesionalismo.</p>
+</section>
+
+<section>
+    <h2>Manifiesto</h2>
+    <blockquote>“Nuestros mayores no quieren cambiar. Quieren quedarse.”</blockquote>
+    <blockquote>“No quieren distancia. Quieren raíz.”</blockquote>
+    <blockquote>“El verdadero lujo no es moverse sin parar. Es tener un lugar al que siempre puedes volver.”</blockquote>
+    <blockquote>“Y si tú estás lejos… nosotros estamos cerca.”</blockquote>
+</section>
+
+<section>
+    <h2>Servicios</h2>
+    <ul>
+        <li>Acompañamiento médico</li>
+        <li>Apoyo en trámites</li>
+        <li>Compañía y visitas</li>
+        <li>Seguridad y monitoreo</li>
+        <li>Informes regulares para ti, estés donde estés</li>
+    </ul>
+</section>
+
+<section style="text-align:center;">
+    <a href="https://forms.gle/tu_formulario_aqui" class="cta-button">Quiero ser parte de esto</a>
+</section>
+
+<footer>
+    <p>Síguenos en Instagram y TikTok · contacto@tunombredemarca.com</p>
+    <p><em>“La verdadera libertad no está en cambiar de lugar, sino en poder elegir dónde quedarse.”</em></p>
+</footer>
+
+</body>
+</html>
