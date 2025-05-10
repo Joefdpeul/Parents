@@ -3,51 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Para mis Padres</title>
+  <title>FDPEUL - Teaser</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header class="hero">
     <div class="container">
-      <h1>Para mis Padres</h1>
-      <p class="subtitulo">Un homenaje lleno de amor, gratitud y memorias inolvidables.</p>
-      <a href="#inscripcion" class="cta">Inscribirse</a>
+      <h1>Muy pronto en Colombia</h1>
+      <p class="subtitulo">Un servicio humano y confiable para acompañar a tus seres queridos mayores.</p>
+      <a href="#formulario" class="cta">Déjanos tu ciudad</a>
     </div>
   </header>
 
   <main class="container">
-    <section class="intro">
-      <h2>Un mensaje desde el corazón</h2>
-      <p>Esta página es un pequeño homenaje para agradecerles por todo lo que me han dado. Con cada palabra quiero devolverles una parte del amor con el que me criaron. Cada recuerdo, cada sonrisa, cada consejo… están presentes en mi vida diaria. No hay palabras suficientes para expresar lo agradecido que estoy.</p>
-    </section>
-
-    <section class="imagen-section">
-      <img src="foto.jpg" alt="Mis padres" class="imagen"/>
-    </section>
-
-    <section id="inscripcion" class="inscripcion">
-      <h2>¿Quieres dejar tu propio mensaje?</h2>
-      <p>Puedes unirte a este homenaje o recibir actualizaciones. Comparte tu historia o simplemente deja tu nombre.</p>
-      <a href="https://forms.gle/xxxxxxxxxxxxxxxx" target="_blank" class="boton">Ir al formulario</a>
-    </section>
-
-    <section class="redes">
-      <h2>Comparte en redes</h2>
-      <p>Ayúdanos a que más personas rindan homenaje a quienes los formaron.</p>
-      <div class="redes-links">
-        <a href="https://www.facebook.com/tuperfil" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/tuperfil" target="_blank">Instagram</a>
-        <a href="https://twitter.com/tuusuario" target="_blank">Twitter</a>
+    <section class="video-section">
+      <h2>¿Qué es FDPEUL?</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Presentación FDPEUL" frameborder="0" allowfullscreen></iframe>
       </div>
+    </section>
+
+    <section id="formulario" class="formulario">
+      <h2>Queremos llegar donde tú lo necesitas</h2>
+      <p>Cuéntanos en qué ciudad viven tus seres queridos mayores y te avisaremos cuando estemos disponibles allí.</p>
+      <form action="https://formsubmit.co/tu-correo@dominio.com" method="POST">
+        <label for="ciudad">Ciudad donde vive tu familiar:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <label for="email">Tu correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit" class="boton">Enviar</button>
+      </form>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Con todo mi amor, tu hijo.</p>
+    <p>&copy; 2025 FDPEUL - Cuidamos lo que más amas.</p>
   </footer>
-</body>
-</html>
-    </footer>
 </body>
 </html>
